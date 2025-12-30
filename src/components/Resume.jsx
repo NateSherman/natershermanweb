@@ -14,7 +14,7 @@ const Resume = () => {
     ],
     technicalSkills: {
       "Backend / Cloud": [".NET 8", "C#", "Azure Functions", "Logic Apps", "Event Grid", "Service Bus", "MS SQL Server", "MongoDB", "Web API"],
-      "Frontend / Mobile": ["Angular 17", "TypeScript", "Angular Material", ".NET MAUI"],
+      "Frontend / Mobile": ["Angular 19", "TypeScript", "Angular Material", ".NET MAUI"],
       "DevOps / CI/CD": ["Azure DevOps", "ARM Templates", "Pipeline Automation"],
       "Messaging / Real-time": ["SignalR", "Event-driven Architecture"],
       "Other / Past Experience": [".NET Framework", "WCF", "WebForms", "Entity Framework", "Java", "JavaScript", "jQuery", "Android", "SharePoint"],
