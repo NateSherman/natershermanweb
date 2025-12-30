@@ -1,0 +1,172 @@
+
+
+.resume {
+  padding: 40px;
+  color: #333;
+}
+
+.resume-header {
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.resume-header h2 {
+  font-size: 2.5rem;
+  color: var(--header-text);
+  margin-bottom: 10px;
+}
+
+.resume-title {
+  font-size: 1.3rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.resume-experience {
+  font-size: 1rem;
+  color: #888;
+}
+
+.resume-section {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.resume-section h3 {
+  font-size: 1.5rem;
+  color: var(--header-text);
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.resume-section p {
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 10px;
+  padding: 8px 0;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background: linear-gradient(135deg, var(--primary-bg) 0%, var(--secondary-bg) 100%);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.experience-item {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.experience-header h4 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0;
+}
+
+.experience-period {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.experience-company {
+  font-weight: 600;
+  color: #667eea;
+  margin-bottom: 8px;
+}
+
+.experience-note {
+  font-style: italic;
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  padding: 4px 0;
+}
+
+.highlights-list,
+.achievements-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.highlights-list li,
+.achievements-list li {
+  position: relative;
+  padding: 8px 0 8px 20px;
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.highlights-list li::before,
+.achievements-list li::before {
+  content: "●";
+  position: absolute;
+  left: 0;
+  color: var(--header-text);
+  font-weight: bold;
+}
+
+.skills-category {
+  margin-bottom: 20px;
+}
+
+.skills-category-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.education-item {
+  margin-bottom: 20px;
+}
+
+.education-item h4 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.education-item p {
+  color: #666;
+  padding: 4px 0;
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 20px;
+  }
+  
+  .resume-header h2 {
+    font-size: 2rem;
+  }
+  
+  .experience-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
